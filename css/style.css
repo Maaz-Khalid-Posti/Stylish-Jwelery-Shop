@@ -1,0 +1,159 @@
+/* Custom Navbar Styles */
+
+/* body{
+  background-color: lightpink;
+} */
+.image{
+  background-color: lightpink;
+  color: lightpink !important;
+  
+}
+.navbar {
+    background-color: #343a40; /* Dark background color */
+    padding: 15px 0; /* Add top and bottom padding */
+  }
+  /* .navbar{
+    position: fixed !important;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+  } */
+  
+  .navbar-brand {
+    font-size: 24px; /* Increase font size */
+  }
+  
+  .navbar-nav {
+    gap: 10px; /* Add spacing between nav items */
+  }
+  
+  .navbar-nav .nav-link {
+    color: #ffffff; /* Text color */
+    font-weight: bold; /* Bold font weight */
+  }
+  
+  .navbar-nav .nav-link.active,
+  .navbar-nav .nav-link:focus,
+  .navbar-nav .nav-link:hover {
+    color: #f8f9fa; /* Active, focus, and hover text color */
+  }
+  
+  .dropdown-menu {
+    background-color: #343a40; /* Dark background color for dropdown */
+  }
+  
+  .dropdown-item {
+    color: #ffffff; /* Text color for dropdown items */
+  }
+  
+  .dropdown-item:hover {
+    background-color: #495057; /* Hover background color for dropdown items */
+  }
+  
+  /* Custom Search Input Color */
+  .form-control {
+    color: white; /* Set text color to white */
+    background-color: black; /* Set background color to black */
+  }
+
+  .carousel-item img {
+    width: 100%; /* Set image width to 100% of parent container */
+    height: 600px; /* Set desired height for carousel images */
+    object-fit: cover; /* Ensure the image covers the entire carousel item */
+  }
+
+  .h2-rings{
+    font-weight: bold !important;
+    font-family:Arial, Helvetica, sans-serif !important;
+    font-style: italic  !important;
+    color: #94F667;
+  }
+
+  .fa-location-dot{
+    font-size: 20px !important;
+  }
+
+  .fa-phone-1{
+    text-decoration: none !important;
+    color: black !important;
+  }
+  /* ******************** CARDS CSS ******************************** */
+  
+  .cards-s{
+    text-align: center !important;
+  }
+
+  .col img{
+    height: 33vh !important;
+  }
+
+/* *****************   HEADING CSS ******************************** */
+
+.head{
+  text-align: center !important;
+  font-size: 30px !important;
+  font-weight: bold !important;
+  font-family:Arial, Helvetica, sans-serif!important;
+  font-style: italic!important;
+  color: black !important;
+  margin-top: 10px;
+
+}
+
+@media screen and (max-width: 380px) { 
+  .fa-phone-1{
+    display: none !important;
+  }
+  .fa-solid{
+    display: none !important;
+  }
+}
+
+
+/* ******************** FOOTER SECTION START **************************** */
+#footer{
+  font-size: 20px !important;
+  margin-left: 23px ;
+  color: white !important;
+  text-decoration: none !important;
+}
+
+#footer h2{
+  font-size: 30px !important;
+  margin-top: 20px;
+  margin-left: 23px !important;
+
+}
+#footer a{
+  font-size: 20px !important;
+  margin-left: 23px !important;
+  color: lightslategrey !important;
+  text-decoration: none !important;
+}
+
+/* #footer a:hover{
+  color: ligh !important;
+} */
+
+.para{
+  margin-left: 23px !important;
+  color: lightslategrey !important;
+
+}
+
+#para2 a i{
+  font-size: 25px !important;
+  color: white !important;
+}
+
+#map{
+  width: 100% !important;
+  margin-top: 30px;
+}
+
+.main-home a{
+  width: 80% !important;
+}
+img{
+  border: none !important;
+}
